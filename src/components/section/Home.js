@@ -1,7 +1,7 @@
 import React from 'react'
-import abc from '../section/two.jpg'
- import xyz from './tree.webp'
- import mno from './nat.webp'
+// import abc from '../section/two.jpg'
+//  import xyz from './tree.webp'
+//  import mno from './nat.webp'
 
 function Home() {
   return (
@@ -14,13 +14,14 @@ function Home() {
 </div>
 <div className="carousel-inner">
 <div className="carousel-item active">
- <img src={abc} className="d-block w-100" alt="..."/>
+ <img src="https://stylesatlife.com/wp-content/uploads/2020/01/office-cabin-interior-design.jpg" className="d-block w-100" alt="..."/>
+
 </div>
 <div className="carousel-item">
- <img src={xyz} className="d-block w-100" alt="..."/>
+ <img src="https://thearchitecturedesigns.com/wp-content/uploads/2019/12/office-cabin-1.jpg" className="d-block w-100" alt="..."/>
 </div>
 <div className="carousel-item">
- <img src={mno} className="d-block w-100" alt="..."/>
+ <img src="https://i.pinimg.com/originals/1e/8c/95/1e8c955685931368e6ad6bd042d4df84.jpg" className="d-block w-100" alt="..."/>
 </div>
 </div>
 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
